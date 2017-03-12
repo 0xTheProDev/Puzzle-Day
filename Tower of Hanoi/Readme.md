@@ -10,7 +10,7 @@ There are three towers in Hanoi, one of them are full with **N-disc** (which we 
 ##### Note: N can be any positive integer, ranging from 1 to infinity.
 
 ### Analysis of the Problem
-![video](https://www.youtube.com/watch?v=rVPuzFYlfYE)
+![video](https://youtu.be/rVPuzFYlfYE)
 So you remember we have three towers, namely _**SOURCE**_ Tower, _**DESTINATION**_ Tower and _**VIA**_ Tower. We have to take all the disc from SOURCE and put them to DESTINATION and can use VIA as temporary storage to maintain the given constraints.
 
 #### Trivial Case: One disc in SOURCE tower
