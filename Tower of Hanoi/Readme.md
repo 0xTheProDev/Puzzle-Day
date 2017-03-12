@@ -2,7 +2,7 @@
 Tower of Hanoi is a famous problem regarding use of recursive algorithm in solving puzzle.
 
 ### Problem Statement
-![image](./Tower of Hanoi.png)
+[![image](./Tower of Hanoi.png)](https://en.wikipedia.org/wiki/Tower_of_Hanoi)
 There are three towers in Hanoi, one of them are full with **N-disc** (which we will refer as _**SOURCE**_ tower). We have to move those **N-disc** to another tower (mentioned as _**DESTINATION**_) and during this process we are allowed to use the third one (let us say _**VIA**_). But to make the process interesting, it is subjected to two constraints:
 * You can move only one disc at a time.
 * You cannot put larger disc over small one.
@@ -10,7 +10,7 @@ There are three towers in Hanoi, one of them are full with **N-disc** (which we 
 ##### Note: N can be any positive integer, ranging from 1 to infinity.
 
 ### Analysis of the Problem
-![video](https://youtu.be/rVPuzFYlfYE)
+[![video](http://www.iros2012.org/site/sites/default/files/imgs/iros2012_TowerOfHanoiProblem.png)] (https://youtu.be/rVPuzFYlfYE)
 So you remember we have three towers, namely _**SOURCE**_ Tower, _**DESTINATION**_ Tower and _**VIA**_ Tower. We have to take all the disc from SOURCE and put them to DESTINATION and can use VIA as temporary storage to maintain the given constraints.
 
 #### Trivial Case: One disc in SOURCE tower
