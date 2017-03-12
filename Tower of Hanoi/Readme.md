@@ -2,7 +2,7 @@
 Tower of Hanoi is a famous problem regarding use of recursive algorithm in solving puzzle.
 
 ### Problem Statement
-[![image](./Tower of Hanoi.png)](https://en.wikipedia.org/wiki/Tower_of_Hanoi)
+    [![image](./Tower of Hanoi.png)](https://en.wikipedia.org/wiki/Tower_of_Hanoi)
 
 There are three towers in Hanoi, one of them are full with **N-disc** (which we will refer as _**SOURCE**_ tower). We have to move those **N-disc** to another tower (mentioned as _**DESTINATION**_) and during this process we are allowed to use the third one (let us say _**VIA**_). But to make the process interesting, it is subjected to two constraints:
 * You can move only one disc at a time.
