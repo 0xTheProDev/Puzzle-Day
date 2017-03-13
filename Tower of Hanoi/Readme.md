@@ -22,7 +22,7 @@ Okay let us solve the simplest version of the problem, the trivial case. What if
 ```
 
 #### Let us make it Two
-Still it is not much to worry about. We can simply move the smallest disc to the VIA tower and bigger one to DESTINATION, and then took the smallestone from VIA tower and put that above biggerone in DESTINATION tower.
+Still it is not much to worry about. We can simply move the smallest disc to the VIA tower and bigger one to DESTINATION, and then took the smallestone from VIA tower and put that above bigger one in DESTINATION tower.
 ```
     Move Disc#1 from SOURCE Tower to VIA Tower
     Move Disc#2 from SOURCE Tower to DESTINATION Tower
@@ -50,7 +50,7 @@ The algorithm so formed will be like this:
             then Move Disc#1 from SOURCE to DESTINATION
         else
             Tower_of_Hanoi(N - 1, SOURCE, VIA, DESTINATION)
-            Move Disc#1 from SOURCE to DESTINATION
+            Move Disc#N from SOURCE to DESTINATION
             Tower_of_Hanoi(N - 1, VIA, DESTINATION, SOURCE)
 ```
 
